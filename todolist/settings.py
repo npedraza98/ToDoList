@@ -1,3 +1,4 @@
+from secret_settings import *
 """
 Django settings for todolist project.
 
@@ -18,9 +19,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/
-
-# SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-)pg-1=i-9sb-c+=y!%^3(sm))stk8e2%7nhnunjo3#q!5x1=rh'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
